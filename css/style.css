@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(https://images.pexels.com/photos/332330/pexels-photo-332330.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) center/cover no-repeat;
+	background-attachment: fixed;
+	height: 90vh;
+	color: #FFF;
+}
+
+main {
+	text-align: center;
+	padding: 10%;
+	color: blue;
+}
+
+header h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #FFF;
+	margin-bottom: 50px;
+}
+
+input {
+	padding: 10px;
+	width: 20%;
+}
+
+main button {
+	display: block;
+	color: #FFF;
+	margin: 20px auto;
+	padding: 10px 30px;
+	background: linear-gradient(#b37700, rgb(163, 163, 194));
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: none;
+	transition: 0.3s;
+}
+
+main button:hover {
+	transform: scale(1.1);
+}
+
+main h2 {
+	margin: 50px 0 30px;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.search-results {
+	background-color: #689bca;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.background {
+	background-color: #369;
+}
+
+main ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+main ul li {
+	font-size: 18px;
+	height: 65px;
+	line-height: 64px;
+	overflow-y: auto;
+	overflow-x: auto;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.row {
+	color: #FFF;
+}
